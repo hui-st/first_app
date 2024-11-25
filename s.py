@@ -11,7 +11,7 @@ st.header('Matplotlib 기반')
 
 
 # geoJSON
-df = gpd.read_file(""https://drive.google.com/uc?id=1CF0X0SURf2NBfmxv4Rr4A6KOdo-PSRfM"")
+df = gpd.read_file("https://drive.google.com/uc?id=1CF0X0SURf2NBfmxv4Rr4A6KOdo-PSRfM")
 
 # Matplotlib 한글 폰트 설정
 plt.rcParams['font.family'] = 'Malgun Gothic'
