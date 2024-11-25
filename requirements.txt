@@ -1,4 +1,4 @@
 pandas
-matplotlib==3.4.3
-geopandas==0.12.2
+matplotlib
+geopandas
 streamlit
