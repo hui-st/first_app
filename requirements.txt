@@ -2,3 +2,6 @@ pandas
 matplotlib
 geopandas
 streamlit
+fiona
+pyogrio
+shapely
