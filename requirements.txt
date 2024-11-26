@@ -2,4 +2,4 @@ pandas
 matplotlib
 geopandas
 streamlit
-
+altair
