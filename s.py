@@ -9,7 +9,7 @@ st.title('**시군구 기준 Choropleth 지도**')
 st.header('Altair 기반 시각화')
 
 # TopoJSON 데이터 URL
-topojson_url = "https://github.com/hui-st/first_app/edit/main/s.py"
+topojson_url = "https://raw.githubusercontent.com/hui-st/first_app/refs/heads/main/dataframe.json"
 
 # Altair의 topo_feature를 사용해 TopoJSON 데이터 로드
 topo_feature = alt.topo_feature(topojson_url, "dataframe")  # 'layer_name'을 파일 구조에 맞게 수정
