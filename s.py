@@ -12,14 +12,14 @@ st.header('Matplotlib 기반')
 
 
 # geoJSON 데이터 불러오기(구글 드라이브에서 )
-df = gpd.read_file("https://drive.google.com/uc?id=1CF0X0SURf2NBfmxv4Rr4A6KOdo-PSRfM")
+#df = gpd.read_file("https://drive.google.com/uc?id=1CF0X0SURf2NBfmxv4Rr4A6KOdo-PSRfM")
 
 # Matplotlib 한글 폰트 설정
-plt.rcParams['font.family'] = 'Malgun Gothic'
-plt.rcParams['axes.unicode_minus'] = False
+#plt.rcParams['font.family'] = 'Malgun Gothic'
+#plt.rcParams['axes.unicode_minus'] = False
 
-import matplotlib.pyplot as plt
-import streamlit as st
+#import matplotlib.pyplot as plt
+#import streamlit as st
 
 # figure, axes 생성
 #fig, ax = plt.subplots(1, 1, figsize=(10, 10))
