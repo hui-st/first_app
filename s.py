@@ -4,6 +4,9 @@ import matplotlib.pyplot as plt
 import geopandas as gpd
 import altair as alt
 
+
+
+st.write('topojson형식을 변화시켜 데이터 크기를 줄여 깃허브에 데이터를 올리는 법을 찾아서 altair로 그려봤지만 제대로 출력되지는 않았습니다')
 # Streamlit 앱 타이틀
 st.title('**시군구 기준 Choropleth 지도**')
 st.header('Altair 기반 시각화')
